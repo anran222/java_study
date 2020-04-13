@@ -54,7 +54,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="247">
               <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
             </state>
           </provider>
@@ -227,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586522478203</updated>
-      <workItem from="1586522491396" duration="2942000" />
+      <workItem from="1586522491396" duration="3474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2942000" />
+    <option name="totallyTimeSpent" value="3474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="37" width="1346" height="636" extended-state="0" />
@@ -243,7 +243,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -303,7 +303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="247">
           <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
