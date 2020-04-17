@@ -183,12 +183,12 @@ public class LinkedList2 {
             prev=cur;
             cur=next;
         }
-        while (B!=null){
-                if (A.val==B.val){
+        while (prev!=null){
+                if (A.val==prev.val){
                     return false;
                 }
                 A=A.next;
-                B=B.next;
+                prev=prev.next;
         }
         return true;
     }
