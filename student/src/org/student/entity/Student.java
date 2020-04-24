@@ -57,4 +57,9 @@ public class Student {
     public void setSaddress(String saddress) {
         this.saddress = saddress;
     }
+
+    @Override
+    public String toString() {
+        return this.getSno()+"--"+this.getSname()+"--"+this.getSage()+"--"+this.getSaddress();
+    }
 }
