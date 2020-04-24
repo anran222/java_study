@@ -30,9 +30,12 @@ public class AddStudentServlet extends HttpServlet {
         Student student=new Student(no,name,age,address);
         StudentService studentService=new StudentService();
         boolean result=studentService.addStudent(student);
+        response.setContentType("text/html;charset=utf-8");
+        response.setCharacterEncoding("utf-8");
         PrintWriter out=response.getWriter();
         if (result){
-            out.print("增加成功！");
+            //out.print("增加成功！");
+            response.sendRedirect("QueryAllStudentsServlet");
         }else {
             out.print("增加失败！");
         }
