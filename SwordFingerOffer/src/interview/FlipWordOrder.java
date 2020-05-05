@@ -14,7 +14,7 @@ public class FlipWordOrder {
         String[] a=s.split(" ");
         StringBuilder sb=new StringBuilder();
         for (int i = a.length-1; i >= 0; i--) {
-            if (!a[i].equals(" ")){
+            if (!a[i].equals("")){
                 sb.append(a[i]);
                 sb.append(" ");
             }
