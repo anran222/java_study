@@ -18,7 +18,19 @@ public class ImportanceOfEmployees {
         public List<Integer> subordinates;
     }
 
+    private static int result;
     public static int getImportance(List<Employee> employees, int id) {
-
+        for (Employee e:employees) {
+            if (e.id==id){
+                result+=e.importance;
+            }
+            if (e.subordinates.size()==0){
+                return result;
+            }
+            for (int i:e.subordinates) {
+                getImportance(employees,i);
+            }
+        }
+        return result;
     }
 }
