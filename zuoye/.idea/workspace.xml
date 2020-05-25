@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="966ad086-235f-4b73-927e-e8d750320518" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zuoye/list3/OnlineStockSpan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="966ad086-235f-4b73-927e-e8d750320518" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zuoye/list3/OnlineStockSpan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -70,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="8" />
     <option name="y" value="27" />
     <option name="width" value="1346" />
@@ -102,13 +99,6 @@
               <item name="zuoye" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zuoye" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zuoye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zuoye" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zuoye" type="462c0819:PsiDirectoryNode" />
-              <item name="list3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +220,7 @@
       <workItem from="1589380448882" duration="2905000" />
       <workItem from="1589467445543" duration="262000" />
       <workItem from="1589552700391" duration="1745000" />
-      <workItem from="1589724199240" duration="1490000" />
+      <workItem from="1589724199240" duration="2512000" />
     </task>
     <task id="LOCAL-00001" summary=" 二维网格迁移">
       <created>1589031656679</created>
@@ -274,11 +264,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589557512647</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="股票价格跨度">
+      <created>1589726447678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589726447678</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22822000" />
+    <option name="totallyTimeSpent" value="23844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="27" width="1346" height="636" extended-state="0" />
@@ -325,7 +322,8 @@
     <MESSAGE value="将数组分成和相等的三个部分" />
     <MESSAGE value="设计链表" />
     <MESSAGE value="逆波兰表达式求值" />
-    <option name="LAST_COMMIT_MESSAGE" value="逆波兰表达式求值" />
+    <MESSAGE value="股票价格跨度" />
+    <option name="LAST_COMMIT_MESSAGE" value="股票价格跨度" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.4/lib/src.zip!/java.base/java/math/BigInteger.java">
@@ -451,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zuoye/list3/OnlineStockSpan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
