@@ -68,6 +68,7 @@ public class MyScheduledThreadPool {
         private long next;
         private long period;
         public MyTimeTask(Runnable runnable,long next, long period) {
+            this.runnable=runnable;
             this.next=next;
             this.period=period;
         }
@@ -81,5 +82,12 @@ public class MyScheduledThreadPool {
         public int compareTo(MyTimeTask o) {
             return Long.compare(next,o.next);
         }
+    }
+
+    public static void main(String[] args) {
+        MyScheduledThreadPool pool=new MyScheduledThreadPool(4);
+        pool.schedule(()->{
+            System.out.println("ABC");
+        },0,1000);
     }
 }
