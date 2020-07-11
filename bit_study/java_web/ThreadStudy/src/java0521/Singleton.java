@@ -17,10 +17,10 @@ public class Singleton {
         return SINGLETON;
     }
 
-    //懒汉式：
+    //懒汉式：不保证线程安全
     public static Singleton SING_LETON2;
 
-    //省略了构造方法
+    //省略了构造方法：存在效率低的问题
     public static Singleton getInstance2(){
         if (SING_LETON2==null) {
             SING_LETON2 = new Singleton();
