@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="maventest" />
         <module name="maven-test" />
+        <module name="stu-dorm-sys" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="maven-test" target="1.5" />
       <module name="maventest" target="1.5" />
+      <module name="stu-dorm-sys" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
