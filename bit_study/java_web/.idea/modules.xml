@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Jvm/Jvm.iml" filepath="$PROJECT_DIR$/Jvm/Jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadStudy/ThreadStudy.iml" filepath="$PROJECT_DIR$/ThreadStudy/ThreadStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/io-study/io-study.iml" filepath="$PROJECT_DIR$/io-study/io-study.iml" />
       <module fileurl="file://D:/maven-test/maven-test.iml" filepath="D:/maven-test/maven-test.iml" />
